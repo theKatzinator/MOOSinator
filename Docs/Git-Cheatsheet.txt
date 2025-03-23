@@ -14,6 +14,19 @@
    git push
 
 
+🟢 Was tun, wenn Dateien in VS Code grün sind?
+---------------------------------------------
+➡️ Bedeutet: neue Datei – Git kennt sie noch nicht ("untracked")
+
+✅ Vorgehen:
+1. git add .
+2. git commit -m "feat: neue Datei hinzugefügt"
+3. git push
+
+Optional: Nur eine Datei hinzufügen →
+   git add Scripts/logic.lua
+
+
 🔁 Aktuellen Stand von GitHub holen (z. B. wenn du online was geändert hast):
 ----------------------------------------------------------------------------
 git pull --rebase origin main
