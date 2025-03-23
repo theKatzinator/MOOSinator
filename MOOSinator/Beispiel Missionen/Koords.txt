@@ -1,0 +1,8 @@
+	1️⃣ Mechaniker 1 (Links – A-10C #1 → AirbasePatrol2 #1)
+    Koordinaten: X-00269624 Z-00027935
+    2️⃣ Mechaniker 2 (Links – A-10C #2 → AirbasePatrol2 #2)
+    Koordinaten: X-00269648 Z-00027970
+    3️⃣ Mechaniker 3 (Rechts – A-10C #3 → AirbasePatrol #1)
+    Koordinaten: X-00268931 Z-00028723
+    4️⃣ Mechaniker 4 (Rechts – A-10C #4 → AirbasePatrol #2)
+    Koordinaten: X-00268973 Z-00028781

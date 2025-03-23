@@ -1,0 +1,13 @@
+Befehl	Bedeutung
+git add .	Sag Git: „Alle Änderungen merken.“ ✅
+git commit -m ""	Erstell einen Snapshot mit Message 📝
+git push	Lade alles auf GitHub hoch ☁️🚀
+📖 Typische Commit-Messages:
+Typ	Beispiel
+feat:	Neue Datei, neue Funktion → feat: neue Zone erstellt
+fix:	Fehler behoben → fix: Koordinaten falsch gesetzt
+docs:	Doku geändert → docs: README aktualisiert
+chore:	Aufräumaktion → chore: unnötige Dateien gelöscht
+refactor:	Struktur verbessert → refactor: Logik ausgelagert
+git status
+git log --oneline
