@@ -1,0 +1,16 @@
+{
+  "workspace": {
+    "library": [
+      "./Moose"
+    ]
+  },
+  "runtime": {
+    "version": "Lua 5.1"
+  },
+  "diagnostics": {
+    "globals": [
+      "trigger", "timer", "Group", "Unit", "trigger.action", "Group.getByName", 
+      "SCHEDULER", "GROUP", "BASE", "ZONE", "ctld", "mist"
+    ]
+  }
+}
