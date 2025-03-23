@@ -1,0 +1,23 @@
+{
+  "workspace": {
+    "library": [
+      "F:/DCS Scripting und Software/MOOSE-2.9.10/Moose Development/Moose"
+    ]
+  },
+  "runtime": {
+    "version": "Lua 5.1"
+  },
+  "diagnostics": {
+    "globals": [
+      "trigger",
+      "SCHEDULER",
+      "GROUP",
+      "BASE",
+      "ZONE",
+      "Unit",
+      "Group",
+      "ctld",
+      "mist"
+    ]
+  }
+}
