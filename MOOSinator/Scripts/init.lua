@@ -1,4 +1,4 @@
--- Projektstart: Wir_benennen_die_Mission_wenns_funktioniert
+-- Projektstart: MOOSinator
 
 DEBUG = true
 function Debug(msg)
