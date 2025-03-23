@@ -1,0 +1,1 @@
+DebugMessage("🔧 Mechaniker wurde gespawnt für " .. groupName)

@@ -1,0 +1,17 @@
+# DCS Stuff
+*.miz.bak
+*.miz~
+*.trk
+*.log
+~*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lua Junk
+*.luac

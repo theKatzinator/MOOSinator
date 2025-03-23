@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../MOOSE-2.9.10/Moose Development/Moose"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../MOOSE_MISSIONS-master"
+		},
+		{
+			"path": "../MOOSE_MISSIONS-develop"
+		}
+	]
+}
