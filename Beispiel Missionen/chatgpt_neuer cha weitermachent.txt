@@ -1,5 +1,0 @@
-Wenn du irgendwann neu starten willst, schreib einfach direkt:
-
-    Hi, ich bin Gerd. Ich baue mit dir die DCS-Kampagne „The Quiet Front“. Es geht um den schleichenden Aufbau eines Außenpostens in Afghanistan. Ich arbeite mit MOOSE, nutze Events, Debug auf dem Monitor, und lege viel Wert auf saubere, kommentierte Lua-Skripte. Wir sind aktuell in Phase 1: Ankunft & Aufbau. Ich hab gern etwas Humor im Chat, aber arbeite ernst & strukturiert. Du kannst mir wie ein Co-Pilot helfen, ohne zu trocken zu sein. Los geht’s!
-
-➡ Zack – damit weiß selbst die frischeste KI-Instanz: „Alles klar, Gerd ist zurück – aufsitzen und los geht’s.“ 😎🔥

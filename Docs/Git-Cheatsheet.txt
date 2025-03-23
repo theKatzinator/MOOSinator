@@ -1,0 +1,72 @@
+🧠 GIT-CHEATSHEET – Katzinator Style 🐾
+=====================================
+(Speichern in: `Docs/Git-Cheatsheet.txt`)
+
+💥 Standard-Workflow (Code speichern und hochladen):
+---------------------------------------------------
+1. Änderungen vormerken:
+   git add .
+
+2. Commit mit Beschreibung erstellen:
+   git commit -m "feat: neue Zone eingebunden"
+
+3. Auf GitHub hochladen:
+   git push
+
+
+🔁 Aktuellen Stand von GitHub holen (z. B. wenn du online was geändert hast):
+----------------------------------------------------------------------------
+git pull --rebase origin main
+
+
+🧼 Status prüfen (Was ist geändert?):
+------------------------------------
+git status
+
+
+🕵️‍♂️ Letzte Commits anzeigen:
+-----------------------------
+git log --oneline
+
+
+📂 Nur bestimmte Datei committen:
+---------------------------------
+git add Scripts/air_units.lua
+
+
+🆕 Neue Datei zum Repo hinzufügen:
+---------------------------------
+git add README.md
+
+git commit -m "docs: README.md erstellt"
+
+git push
+
+
+🔥 Wenn Git meckert: „Updates were rejected…“:
+---------------------------------------------
+1. Erst pulln:
+   git pull --rebase origin main
+
+2. Dann pushen:
+   git push
+
+
+🌍 Neues Remote setzen (wenn du den Ordner umziehst oder GitHub neu verbindest):
+--------------------------------------------------------------------------------
+git remote set-url origin https://github.com/DEINNAME/DEINREPO.git
+
+
+🚀 Erstes Setup nach git init (nur einmal nötig):
+------------------------------------------------
+git remote add origin https://github.com/DEINNAME/DEINREPO.git
+git branch -M main
+git push -u origin main
+
+
+✅ Pro-Tipp: Globale Rebase-Aktivierung (optional)
+--------------------------------------------------
+git config --global pull.rebase true
+
+
+Fertig! Git gehorcht dir. Jetzt kannst du sauber arbeiten – wie ein echter Katzinator 😼💻
