@@ -4,13 +4,10 @@
 
 Debug("logic.lua geladen")
 
--- Voraussetzungen:
--- - C130 (c130Group) ist bereits aktiv
--- - Dropzone (dropZone) ist in zones.lua definiert
--- - Fallschirmgruppe (paraGroup) ist in air_units.lua bekannt
-
--- Funktion zur Zonenprüfung und Abwurf
 local function CheckDropTrigger()
+    local c130Group = MOOSINATOR.c130Group
+    local dropZone = MOOSINATOR.dropZone
+
     if not c130Group or not dropZone then
         Debug("DropCheck: Voraussetzungen nicht erfüllt")
         return
@@ -21,17 +18,16 @@ local function CheckDropTrigger()
 
     if c130Coord and dropZone:IsVec3InZone(c130Coord:GetVec3()) then
         Debug("✅ C130 befindet sich in der Dropzone!")
-
-        -- Hier könnte der Abwurfcode folgen (Spawn von Infanterie, Effekt etc.)
         trigger.action.outText("Fallschirmjäger springen!", 10)
-
-        -- Beispiel: Smoke
         dropZone:SmokeZone(1, 5)
-
     else
         Debug("❌ C130 ist noch nicht in der Dropzone")
     end
 end
 
--- Scheduler startet alle 10 Sekunden
+-- Debug-Ausgabe
+Debug("Check: c130Group = " .. tostring(MOOSINATOR.c130Group))
+Debug("Check: dropZone = " .. tostring(MOOSINATOR.dropZone))
+
+-- Scheduler starten
 SCHEDULER:New(nil, CheckDropTrigger, {}, 5, 10)

@@ -1,0 +1,30 @@
+{
+  "projekt": "MOOSinator",
+  "ersteller": "theKatzinator",
+  "github": "https://github.com/theKatzinator/MOOSinator",
+  "frameworks": ["MOOSE", "CTLD", "MIST"],
+  "struktur": [
+    "main.lua",
+    "air_units.lua",
+    "zones.lua",
+    "logic.lua",
+    "Docs/Git-Cheatsheet.txt",
+    "Docs/DCS_Group_Naming.txt"
+  ],
+  "debugsystem": "Global Debug(msg) Funktion mit trigger.action.outText",
+  "features": [
+    "C130 als Fallschirmträger",
+    "Zonenüberwachung mit dropZone",
+    "Abwurflogik mit SCHEDULER",
+    "Modularer Aufbau per dofile()",
+    "GIT-Integration via VS Code",
+    "README auf GitHub",
+    "Spickzettel im Docs-Ordner"
+  ],
+  "specials": [
+    "Zwei QA-Katzen: Blacky & Flecki 🐾🐾",
+    "Zukunftsprojekt: KatzenEngine mit .ktz-Dateiendung",
+    "Cheat-Code: 'Katzenengine Go' aktiviert Katzenpower"
+  ],
+  "stand": "März 2025 – Projektstruktur aktiv, logic.lua vorbereitet"
+}

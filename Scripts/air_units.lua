@@ -5,25 +5,25 @@
 Debug("air_units.lua geladen")
 
 -- === Gruppennamen ===
-local c130GroupName = "C130_1"               -- Name der C130-Gruppe im Mission Editor
-local paratrooperGroupName = "Fallschirm_Gruppe" -- Name der Fallschirmtruppe
+MOOSINATOR.c130GroupName = "C130_1"
+MOOSINATOR.paratrooperGroupName = "Fallschirm_Gruppe"
 
 -- === C130 aktivieren ===
-local c130Group = GROUP:FindByName(c130GroupName)
+MOOSINATOR.c130Group = GROUP:FindByName(MOOSINATOR.c130GroupName)
 
-if c130Group ~= nil then
-    Debug("C130 gefunden: " .. c130GroupName)
-    c130Group:Activate()
+if MOOSINATOR.c130Group then
+    Debug("C130 gefunden: " .. MOOSINATOR.c130GroupName)
+    MOOSINATOR.c130Group:Activate()
     Debug("C130 aktiviert")
 else
-    Debug("FEHLER: Gruppe '" .. c130GroupName .. "' nicht gefunden!")
+    Debug("FEHLER: Gruppe '" .. MOOSINATOR.c130GroupName .. "' nicht gefunden!")
 end
 
 -- === Fallschirmgruppe vorbereiten ===
-local paraGroup = GROUP:FindByName(paratrooperGroupName)
+MOOSINATOR.paraGroup = GROUP:FindByName(MOOSINATOR.paratrooperGroupName)
 
-if paraGroup ~= nil then
-    Debug("Fallschirmtruppe gefunden: " .. paratrooperGroupName)
+if MOOSINATOR.paraGroup then
+    Debug("Fallschirmtruppe gefunden: " .. MOOSINATOR.paratrooperGroupName)
 else
-    Debug("WARNUNG: Fallschirmtruppe '" .. paratrooperGroupName .. "' nicht gefunden!")
+    Debug("WARNUNG: Fallschirmtruppe '" .. MOOSINATOR.paratrooperGroupName .. "' nicht gefunden!")
 end

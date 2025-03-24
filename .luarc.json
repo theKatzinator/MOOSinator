@@ -12,5 +12,9 @@
       "trigger", "timer", "Group", "Unit", "trigger.action", "Group.getByName", 
       "SCHEDULER", "GROUP", "BASE", "ZONE", "ctld", "mist"
     ]
-  }
+  },
+    "diagnostics.disable": [
+        "undefined-global",
+        "lowercase-global"
+    ]
 }

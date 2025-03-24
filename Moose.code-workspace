@@ -11,6 +11,9 @@
         },
         {
             "path": "../MOOSE-2.9.10/Moose Development/Moose"
+        },
+        {
+            "path": "../../../Arduino"
         }
     ]
 }

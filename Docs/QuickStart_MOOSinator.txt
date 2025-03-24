@@ -1,0 +1,25 @@
+🚀 MOOSINATOR QUICKSTART – Für neue Chats 🐾
+===========================================
+
+Nutze diesen Text am Anfang eines neuen Chatverlaufs, damit ChatGPT direkt weiß, worum's geht:
+
+---
+Hi, ich arbeite an einem DCS Lua-Skript-Projekt namens "MOOSinator" – es basiert auf MOOSE, CTLD und MIST.
+
+Ich habe eine modulare Struktur:
+- main.lua (lädt alle Module via dofile)
+- air_units.lua (C130 + Fallschirmtruppe)
+- zones.lua (Dropzone + Prüfung)
+- logic.lua (Scheduler + Triggerprüfung)
+
+Ich nutze GitHub zur Versionierung:
+https://github.com/theKatzinator/MOOSinator
+
+Ich habe Debug-Meldungen über eine globale Debug(msg)-Funktion (trigger.action.outText).
+
+In meinem Projekt arbeiten auch zwei Katzen mit: Blacky & Flecki 🐱🐱
+
+Bitte unterstütze mich direkt auf Basis dieser Struktur – ich habe auch eine Datei namens ProjectMemory.json, wenn du auf Details zugreifen möchtest.
+---
+
+✅ Einfach reinkopieren, und los geht’s!
