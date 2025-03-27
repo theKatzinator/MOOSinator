@@ -4,16 +4,13 @@
             "path": "."
         },
         {
-            "path": "../MOOSE_MISSIONS-develop"
-        },
-        {
-            "path": "../MOOSE_MISSIONS-master"
-        },
-        {
-            "path": "../MOOSE-2.9.10/Moose Development/Moose"
-        },
-        {
             "path": "../../../Arduino"
+        },
+        {
+            "path": "../Moose Beispiel Missionen"
+        },
+        {
+            "path": "../Beispiel Missionen"
         }
     ]
 }
