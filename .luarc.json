@@ -15,6 +15,8 @@
   },
     "diagnostics.disable": [
         "undefined-global",
-        "lowercase-global"
+        "lowercase-global",
+        "need-check-nil",
+        "redefined-local"
     ]
 }

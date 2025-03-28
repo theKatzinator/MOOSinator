@@ -39,8 +39,4 @@ end
 
 HeliLandingHandler:HandleEvent(EVENTS.Land)
 
--- Hinweis: Der Ein- und Ausstieg in den Heli kann über den Missionseditor per Standard-Trigger gelöst werden
--- Wichtig ist, dass alle Einheiten die korrekten Namen im Editor tragen
--- Optional: Boarding in LKW nur starten, wenn Infanterie in Zone ist (als Sicherheitscheck)
-
--- Du kannst auch einen OnAfterEmbark-Handler für den Truck setzen, um z.B. dann das Losfahren zu starten
+--
